@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&family=Milonga&family=Oswald&family=Poppins:wght@300&family=Roboto&family=Roboto+Condensed&display=swap');
+
+
+.t-guide{
+  height: 500px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.295)), url("https://www.bluelankatours.com/wp-content/uploads/2017/11/Tourism_in_Sri_Lanka.jpg");
+  background-size: auto;
+  z-index: -1;
+  transition: 2s;
+ 
+}
+
+.t-guide:hover{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.185), rgba(0, 0, 0, 0.164)), url("https://www.bluelankatours.com/wp-content/uploads/2017/11/Tourism_in_Sri_Lanka.jpg");
+  
+}
+
+.t-guide p{
+  text-align: center;
+  margin:auto;
+  padding-top: 230px;
+  font-family: Milonga;
+  font-size: 50px;
+  text-shadow: 2px 2px 3px black;
+}
+
+.guide-info{
+  padding: 30px;
+  width: 800px;
+  height: 200px;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.guide-info img{
+ float: left;
+
+}
+
+.guide-info p{
+  background-color: none;
+  color: black;
+  float: right;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.guide-info a{
+  float: right;
+  text-decoration: none;
+  font-weight: bolder;
+  color: blueviolet;
+  background-color: rgb(231, 231, 231);
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.guide-info a:hover{
+  color: crimson;
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&family=Milonga&family=Oswald&family=Poppins:wght@300&family=Roboto&family=Roboto+Condensed&display=swap');
+
+*{
+  scroll-behavior: smooth;
+  scroll-margin: 100px;
+}
+
+.disbtn{
+  padding: 10px;
+  float: left;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.534);
+  margin-left: 40px;
+  border: none;
+  border-radius: 8px;
+}
+
+.disbtn a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.disbtn:hover{
+  background-color: rgba(0, 255, 255, 0.568);
+}
+
+/*Destination Cards styling Area*/
+
+section{
+  width: 60%;
+}
+
+.desti{
+  margin-left: 150px;
+  margin-bottom: 780px;
+  margin-top: 80px;
+}
+
+.des-card{
+  background-color: rgb(247, 243, 239);
+  height: 330px;
+  width: 200px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 9px;
+  float: left;
+  margin: 15px;
+  transition: 0.2s;
+  cursor: pointer;
+
+}
+
+.des-card p{
+  text-align: justify;
+  font-family: Century Gothic;
+  font-size: 13px;
+  line-height: 22px;
+  color: #000;
+}
+.des-card h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 10px;
+
+}
+.des-card img{
+  height: 150px;
+  width: 180px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.des-card:hover{
+  box-shadow: 2px 2px 5px black;
+}
+
+.desti h3{
+  font-family: 'Milonga', cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/*------------------------------------------*/
+
+.des-card button{
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: yellow;
+  color: black;
+  position: relative;
+  transition: 0.5s;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+}
+
+.des-card button:hover{
+  background-color: rgb(156, 156, 0);
+  color: white;
+}
+
+.wrapper{
+  position: fixed;
+  left: 1040px;
+  top: 200px;
+  height: 470px;
+  width : 500px;
+  border: none;
+  border-radius: 9px;
+  z-index: 1;
+  padding: 4px;
+}
+
+.wrapper h1{
+  float: right;
+  font-size: 20px;
+  color: rgb(0, 225, 255);
+}
+
+.wrapper h2{
+  float: right;
+  color: rgb(200, 255, 0);
+  font-size: 15px;
+  text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+
+.wrapper h1,h2 {
+  line-height: 50px;
+}
+

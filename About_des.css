@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&family=Milonga&family=Poppins:wght@300&family=Roboto&display=swap');
+
+body{
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+/*Body Gradient Animator*/
+body {
+  background: linear-gradient(226deg, #000000, #007183, #023f14, #69072d, #000000, #400074);
+  background-size: 1200% 1200%;
+
+  animation: AnimationName 10s ease infinite;
+}
+
+@keyframes AnimationName {
+  0%{background-position:0% 10%}
+  50%{background-position:100% 91%}
+  100%{background-position:0% 10%}
+}
+/*******************************************************************************************/
+
+.p_title{
+  font-family: 'Lakki Reddy', cursive;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.info-box{
+  height: 500px;
+  width: 1200px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(211, 248, 177);
+  color:#000;
+  margin-left: 70px;
+  margin-bottom: 60px;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.info-box img{
+  height: 300px;
+  width: 360px;
+  float: left;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.info-box p{
+  font-size: 13px;
+  text-align: justify;
+}
+
+.info-box .b-title{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #007745;
+  padding:10px;
+  border-radius: 10px;
+  border:none;
+  margin-bottom: 20px;
+  font-family: 'Milonga', cursive;
+  font-size: 20px;
+}
